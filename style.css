@@ -1,3 +1,16 @@
 .centrado{
     text-align: center;
+
+}
+
+h1{
+    color:rgba(38, 65, 11, 0.918)
+}
+
+td{
+   color:whitesmoke
+}
+
+ul{
+    color:rgba(157, 201, 75, 0.87 );
 }
