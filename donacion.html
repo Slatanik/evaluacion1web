@@ -1,22 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />   
-        <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
-        
-    <title>Document</title>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />   
+    <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Actividad</title>
 </head>
-<body>
+
+<body class="container-fluid" background="img\PLANT_FONDO.png">
+    <h1 style="color:rgba(38, 65, 11, 0.918)">Floreria OBI-WAN</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="INDEX.HTML">Inicio</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="carrocompra.html">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="donacion.html">Donaciones</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="seguimiento.html">Sigue tu pedido</a>
+                    </li>
+                </ul>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="busque su mejor Planta" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div>
+         <img src="img\arboldedinero.jpg" >
+        </div>   
+        <div>
+            <p style="font-family: 'Times New Roman', Times, serif;">
+            En este lugar no fomentamos el lucro a travez de nuestras plantitas por lo cual pedimos donaciones para poder seguir con nuestro local y con el mismo amor hacia las plantas 
+            ponga aqui datos si desea donar, antemano muchas gracias!
+             
+            >     
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="NOMBRE TITULAR" aria-label="Search">
+                
+            </form>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="CVV" aria-label="Search">
+                
+            </form>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="NOMBRE TITULAR" aria-label="Search">
+                
+            </form>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="FECHA VENCIMIENTO" aria-label="Search">
+                
+            </form>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="MONTO A DONAR" aria-label="Search">
+                
+            </form>
+            <form  class="d-flex">
+            <button type="button" class="btn btn-success">Enviar</button>
+            </form>
+            </p>
+        </div>
+    </div>
     
 </body>
 </html>
